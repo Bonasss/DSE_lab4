@@ -9,4 +9,4 @@ Implementazione behavioural del counter a 16 bit, piuttosto semplice la lettura 
 ## Task 4
 Top-level entity: flasher.vhd, strutturale, contiene due counter(uno per derivare 1 secondo dal clock l'altro per il valore decimale del 7-segment).
 Inclusa foto della schematic disegnata a mano.
-Non è inclusa una testbench perché non so se Modelsim è in grado di simualare 50 milioni di giri di clock, si potrebbe provare con una versione più piccola.
+Non è inclusa una testbench perché non so se Modelsim è in grado di simualare 50 milioni di giri di clock, nella directory "Rescaled_task4_with_testbench" il counter a 26 bit è sostituito con uno da 4 che fa scattare il secondo counter ogni 10 giri di clock, serve come proof of concept e la testbench è funzionante.
