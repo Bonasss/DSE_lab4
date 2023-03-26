@@ -13,11 +13,11 @@ constant num_cycles: integer:=50;
 
 COMPONENT synchronous_counter IS 
 PORT (enable, clock, clear: IN STD_LOGIC;
-Q: OUT UNSIGNED(15 DOWNTO 0):= (OTHERS=>'0'));
+Q: OUT UNSIGNED(15 DOWNTO 0));
 END COMPONENT;
 
 BEGIN
-uut: unsigned_counter PORT MAP (enable => en, clock => clk, clear => clr, Q=>q_out);
+uut: synchronous_counter PORT MAP (enable => en, clock => clk, clear => clr, Q=>q_out);
 
 PROCESS
 BEGIN
@@ -29,7 +29,7 @@ BEGIN
     clr <= '1';
     WAIT FOR 10 ns;
     en <= '1';
-    WAIT FOR 100ns;
+    WAIT FOR 100 ns;
     WAIT;
 END PROCESS;
 

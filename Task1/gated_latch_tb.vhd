@@ -16,13 +16,17 @@ SIGNAL clock, r_in, s_in, output: STD_LOGIC:= '0';
 constant num_cycles : integer := 50;
 
 BEGIN
+
+uut: part1 PORT MAP (Clk=>clock, R=>r_in, S=>s_in, Q=>output);
+
 -- Clock with 20ns period, 0.5 DC 
 process
 begin
+  WAIT FOR 2 ns;
   for i in 1 to num_cycles loop
-    clk <= not clk;
+    clock <= not clock;
     wait for 10 ns;
-    clk <= not clk;
+    clock <= not clock;
     wait for 10 ns;
     -- clock period = 20 ns
   end loop;
@@ -38,9 +42,12 @@ BEGIN
     WAIT FOR 100 ns;
     r_in <= '1';
     WAIT FOR 100 ns;
-    s_in <= '1';
-    WAIT FOR 50 ns;
+    --s_in <= '1';  --Forbidden state '11' modelsim gives a loop error and stops the simulation
     r_in <= '0';
+    WAIT FOR 100 ns; 
+    s_in <='1';
     WAIT FOR 100 ns;
+    s_in<='0';
     WAIT;
+END PROCESS;
 END test;

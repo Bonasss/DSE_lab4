@@ -4,18 +4,20 @@ USE ieee.numeric_std.all;
 
 ENTITY synchronous_counter IS 
 PORT (enable, clock, clear: IN STD_LOGIC;
-Q: OUT UNSIGNED(15 DOWNTO 0):= (OTHERS=>'0'));
+Q: OUT UNSIGNED(15 DOWNTO 0));
 END synchronous_counter;
 
 ARCHITECTURE behaviour OF synchronous_counter IS
 
+SIGNAL q_out: UNSIGNED (15 DOWNTO 0):=(OTHERS => '0');
+
 BEGIN
-PROCESS
+Q <= q_out;
+PROCESS(enable, clock, clear)
 BEGIN
-    IF(clear = '0') THEN Q <= OTHERS=>'0';
-    ELSIF (clock'event AND clock ='1' AND enable ='1') THEN Q <= Q +1;
-    ELSIF (enable ='0') THEN Q <= Q;
+    IF(clear = '0') THEN q_out <= (OTHERS=>'0');
+    ELSIF (clock'event AND clock ='1' AND enable ='1') THEN q_out <= q_out +1;
     END IF;
-END PROCESS
+END PROCESS;
 
 END behaviour;
