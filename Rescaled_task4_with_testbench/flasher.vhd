@@ -10,9 +10,8 @@ END flasher;
 ARCHITECTURE structure OF flasher IS 
 
 SIGNAL num: UNSIGNED(3 DOWNTO 0);
-SIGNAL periods: UNSIGNED(25 DOWNTO 0);
-SIGNAL cmp_in: UNSIGNED(2 DOWNTO 0);
-CONSTANT second: UNSIGNED(2 DOWNTO 0):= "110"; 
+SIGNAL periods: UNSIGNED(3 DOWNTO 0);
+CONSTANT second: UNSIGNED(3 DOWNTO 0):= "1010"; --Dopo 10 giri di clock dovrebbe attivarsi il secondo counter
 --for the second comparator to avoid a LUT with 26 bit address 
 --use only the two MSBs and the LSB of the 26-bit counter output
 --2^25+2^24 = 50'331'648 close enough to 50 million
@@ -39,13 +38,13 @@ END COMPONENT;
 BEGIN
 resn0<= not res0;
 resn1<=not res1;
-cmp_in <= periods(25 DOWNTO 24) & periods(0);
-sec: synchronous_counter GENERIC MAP(N => 26) --1 second counter based on 50MHz clock
-    PORT MAP (enable=>'1', clock=> CLOCK_50, clear=>resn0, Q=>periods);
-cmp0: comparator GENERIC MAP (N => 3) --resets 1 sec counter after 1 sec
-    PORT MAP (input => cmp_in, threshold=>second, is_equal=>en, is_bigger=> res0);
+sec: synchronous_counter GENERIC MAP(N => 4) --1 second counter based on 50MHz clock
+    PORT MAP (enable=>'1', clock=> CLOCK_50, clear=> resn0, Q=>periods);
+cmp0: comparator GENERIC MAP (N => 4) --resets 1 sec counter after 1 sec
+    PORT MAP (input => periods, threshold=>second, is_equal=>en, is_bigger=> res0);
 cnt:synchronous_counter GENERIC MAP(N => 4)
-    PORT MAP (enable=>en, clock=> CLOCK_50, clear=>resn1, Q=>num);
+    PORT MAP (enable=>en, clock=> CLOCK_50, clear=> resn1, Q=>num);
 cmp1: comparator PORT MAP (input => num, threshold=>"1001", is_equal=>open, is_bigger=>res1);
 dec: display_7seg PORT MAP (input => num, output=> HEX0);
+
 END structure;

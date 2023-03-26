@@ -1,6 +1,6 @@
 LIBRARY ieee;
 USE ieee.std_logic_1164.all;
-USE IEEE.numeric_std.all;
+USE ieee.numeric_std.all;
 
 ENTITY display_7seg IS
 PORT(input: IN UNSIGNED(3 downto 0); 
