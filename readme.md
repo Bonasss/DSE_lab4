@@ -6,6 +6,7 @@ Manca l'analisi con Quartus della struttura con le LUT.
 N.B. Nella testbench avevo messo per sbaglio il forbidden state '11' e la simulazione si fermava a causa di un loop infinito dando l'errore <Error: (vsim-3601) Iteration limit reached at time 320 ns.>
 ## Task 3
 Implementazione behavioural del counter a 16 bit, piuttosto semplice la lettura del codice, la testbench funziona, un problema riscontrato è che bisogna creare un segnale da assegnare poi a Q perché modelsim non è in grado di leggere l'output e per esempio non è in grado di fare l'assegnazione Q<=Q+1.
+Ale mi ha fatto notare che l'asynchronous clear del counter non funziona sulla FPGA board, viene risolto semplicemente rendendolo synchronous nella condizione dell'if.
 ## Task 4
 Top-level entity: flasher.vhd, strutturale, contiene due counter(uno per derivare 1 secondo dal clock l'altro per il valore decimale del 7-segment).
 Inclusa foto della schematic disegnata a mano.
