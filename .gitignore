@@ -6,3 +6,6 @@ db/
 incremental_db/
 output_files/
 *.txt
+*.mti
+*.mpf
+*.wlf

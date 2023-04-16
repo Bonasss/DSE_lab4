@@ -45,6 +45,7 @@ resn_ms <= KEY(0) AND NOT is_bigger_ms;
 en_delay<= ms AND NOT is_delay;
 th_delay <= UNSIGNED(SW);
 LEDR(0)<=is_delay;
+LEDR(1)<='1';
 en_reaction <= is_delay AND q_sr AND ms;
 rn <= NOT KEY(3);
 sn <= NOT KEY(0);

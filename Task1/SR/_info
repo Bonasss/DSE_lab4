@@ -1,0 +1,143 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Programs/intelFPGA/18.1
+Ehard_block
+Z0 w1681631056
+Z1 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z2 DPx9 cycloneiv 19 cycloneiv_atom_pack 0 22 <z:=^zLc?_L<65bN0V5Ho0
+Z3 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z6 DPx9 cycloneiv 20 cycloneiv_components 0 22 _F^j:l?dZ0Xmd_Z]?K7Gg1
+Z7 dD:/Programs/QuartusProjects/DSE_lab4/Task1
+Z8 8D:/Programs/QuartusProjects/DSE_lab4/Task1/simulation/modelsim/part1.vho
+Z9 FD:/Programs/QuartusProjects/DSE_lab4/Task1/simulation/modelsim/part1.vho
+l0
+L34
+VR<3b>3kMQ_g`bA?eY`kCK3
+!s100 ePBnogNIYclWVmd<QYN@33
+Z10 OV;C;10.5b;63
+32
+Z11 !s110 1681631155
+!i10b 1
+Z12 !s108 1681631154.000000
+Z13 !s90 -reportprogress|300|-work|SR|-2002|-explicit|-stats=none|D:/Programs/QuartusProjects/DSE_lab4/Task1/simulation/modelsim/part1.vho|
+Z14 !s107 D:/Programs/QuartusProjects/DSE_lab4/Task1/simulation/modelsim/part1.vho|
+!i113 1
+Z15 o-work SR -2002 -explicit
+Z16 tExplicit 1 CvgOpt 0
+Astructure
+R1
+R2
+R3
+R4
+R5
+R6
+DEx4 work 10 hard_block 0 22 R<3b>3kMQ_g`bA?eY`kCK3
+l64
+L50
+V;ZmUd;Ed;1kJ5`d`Q=HzU0
+!s100 9XRhD6F>^g=RX1;2c[R1L2
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Elatch_tb
+Z17 w1679820651
+R4
+R5
+R7
+Z18 8D:/Programs/QuartusProjects/DSE_lab4/Task1/gated_latch_tb.vhd
+Z19 FD:/Programs/QuartusProjects/DSE_lab4/Task1/gated_latch_tb.vhd
+l0
+L5
+VYWSdND4?_[lcYezjiIIFH2
+!s100 =obgO`J:JS];Y:ZG<k@bM2
+R10
+32
+Z20 !s110 1681631154
+!i10b 1
+R12
+Z21 !s90 -reportprogress|300|-work|SR|-2002|-explicit|-stats=none|D:/Programs/QuartusProjects/DSE_lab4/Task1/gated_latch_tb.vhd|
+Z22 !s107 D:/Programs/QuartusProjects/DSE_lab4/Task1/gated_latch_tb.vhd|
+!i113 1
+R15
+R16
+Atest
+R4
+R5
+DEx4 work 8 latch_tb 0 22 YWSdND4?_[lcYezjiIIFH2
+l18
+L8
+V_OOhgnMDIzd59MD6GJk[L0
+!s100 ND5k_oCaX;AZkaO[9FQK41
+R10
+32
+R20
+!i10b 1
+R12
+R21
+R22
+!i113 1
+R15
+R16
+Epart1
+R0
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+l0
+L77
+V2FoDZg[[e<Wi^0;5`^kZV1
+!s100 YDQ;EL;O1a7P7W`bd>Umk1
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Astructure
+R1
+R2
+R3
+R4
+R5
+R6
+DEx4 work 5 part1 0 22 2FoDZg[[e<Wi^0;5`^kZV1
+l123
+L93
+VU3fj4_TC:ZRNOShQDW?Nm3
+!s100 0O6ZzV]M1NGB`BL6daYE<1
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16

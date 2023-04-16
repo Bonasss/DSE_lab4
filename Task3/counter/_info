@@ -1,0 +1,151 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Programs/QuartusProjects/DSE_lab4/Task2
+Ehard_block
+Z0 w1681645667
+Z1 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z2 DPx9 cycloneiv 19 cycloneiv_atom_pack 0 22 <z:=^zLc?_L<65bN0V5Ho0
+Z3 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z6 DPx9 cycloneiv 20 cycloneiv_components 0 22 _F^j:l?dZ0Xmd_Z]?K7Gg1
+Z7 dD:/Programs/QuartusProjects/DSE_lab4/Task3
+Z8 8D:/Programs/QuartusProjects/DSE_lab4/Task3/simulation/modelsim/synchronous_counter_6_1200mv_0c_slow.vho
+Z9 FD:/Programs/QuartusProjects/DSE_lab4/Task3/simulation/modelsim/synchronous_counter_6_1200mv_0c_slow.vho
+l0
+L34
+VmCf9k=6ELzg<D;WgF=Sf@1
+!s100 ePBnogNIYclWVmd<QYN@33
+Z10 OV;C;10.5b;63
+32
+Z11 !s110 1681646291
+!i10b 1
+Z12 !s108 1681646291.000000
+Z13 !s90 -reportprogress|300|-work|counter|-2002|-explicit|-stats=none|D:/Programs/QuartusProjects/DSE_lab4/Task3/simulation/modelsim/synchronous_counter_6_1200mv_0c_slow.vho|
+Z14 !s107 D:/Programs/QuartusProjects/DSE_lab4/Task3/simulation/modelsim/synchronous_counter_6_1200mv_0c_slow.vho|
+!i113 1
+Z15 o-work counter -2002 -explicit
+Z16 tExplicit 1 CvgOpt 0
+Astructure
+R1
+R2
+R3
+R4
+R5
+R6
+Z17 DEx4 work 10 hard_block 0 22 mCf9k=6ELzg<D;WgF=Sf@1
+l64
+L50
+Z18 VhZXg822RVG[AKYB?UChE@1
+Z19 !s100 9XRhD6F>^g=RX1;2c[R1L2
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Esynchronous_counter
+R0
+Z20 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R2
+R6
+R1
+Z21 DPx6 altera 11 dffeas_pack 0 22 :S1C`o89Vbe5bV6`:6CaB3
+R3
+R4
+R5
+Z22 DPx6 altera 28 altera_primitives_components 0 22 z?[99Tn<@QGNik3V1c6ah1
+R7
+R8
+R9
+l0
+L80
+V=jU5f>_Od2OhNQz<T]`A;0
+!s100 E?^UD=[G^o[O<Hc7@?6Df2
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Astructure
+R20
+R2
+R6
+R1
+R21
+R3
+R4
+R5
+R22
+Z23 DEx4 work 19 synchronous_counter 0 22 =jU5f>_Od2OhNQz<T]`A;0
+l188
+L111
+Z24 V=mSKChjg<eWng0aJ:6RaL2
+Z25 !s100 2c:[fdWlDh]hEj?4_WRnU1
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Eunsigned_counter_tb
+Z26 w1679821153
+R20
+R4
+R5
+R7
+Z27 8D:/Programs/QuartusProjects/DSE_lab4/Task3/unsigned_counter_tb.vhd
+Z28 FD:/Programs/QuartusProjects/DSE_lab4/Task3/unsigned_counter_tb.vhd
+l0
+L5
+V07mIOdzE6<`bP^EckIC@=2
+!s100 @MZWNm_Cd0blQFQIWN1^R3
+R10
+32
+Z29 !s110 1681645735
+!i10b 1
+Z30 !s108 1681645735.000000
+Z31 !s90 -reportprogress|300|-work|counter|-2002|-explicit|-stats=none|D:/Programs/QuartusProjects/DSE_lab4/Task3/unsigned_counter_tb.vhd|
+Z32 !s107 D:/Programs/QuartusProjects/DSE_lab4/Task3/unsigned_counter_tb.vhd|
+!i113 1
+R15
+R16
+Atest
+R20
+R4
+R5
+DEx4 work 19 unsigned_counter_tb 0 22 07mIOdzE6<`bP^EckIC@=2
+l19
+L8
+V8:V32B>3QE?QH>k]oFFcV3
+!s100 :GmBJHjS=h4JdTPeDf8od1
+R10
+32
+R29
+!i10b 1
+R30
+R31
+R32
+!i113 1
+R15
+R16

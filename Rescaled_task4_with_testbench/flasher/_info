@@ -1,0 +1,262 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Programs/QuartusProjects/DSE_lab4/Rescaled_task4_with_testbench
+Ecomparator
+Z1 w1679847696
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8D:/Programs/QuartusProjects/DSE_lab4/Rescaled_task4_with_testbench/comparator.vhd
+Z6 FD:/Programs/QuartusProjects/DSE_lab4/Rescaled_task4_with_testbench/comparator.vhd
+l0
+L5
+V2bF82@ocWXbca?l3DBccD2
+!s100 HlHXbG:6;SgeKOOh@>HYP2
+Z7 OV;C;10.5b;63
+32
+Z8 !s110 1681663551
+!i10b 1
+Z9 !s108 1681663550.000000
+Z10 !s90 -reportprogress|300|-work|flasher|-2002|-explicit|-stats=none|D:/Programs/QuartusProjects/DSE_lab4/Rescaled_task4_with_testbench/comparator.vhd|
+Z11 !s107 D:/Programs/QuartusProjects/DSE_lab4/Rescaled_task4_with_testbench/comparator.vhd|
+!i113 1
+Z12 o-work flasher -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Abehaviour
+R2
+R3
+R4
+DEx4 work 10 comparator 0 22 2bF82@ocWXbca?l3DBccD2
+l13
+L11
+Vzol=N@717k0[eB_?VEPg60
+!s100 12h6Lb_5RX:m34kdk;`>b1
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Edisplay_7seg
+Z14 w1679847913
+R2
+R3
+R4
+R0
+Z15 8D:/Programs/QuartusProjects/DSE_lab4/Rescaled_task4_with_testbench/display_7seg.vhd
+Z16 FD:/Programs/QuartusProjects/DSE_lab4/Rescaled_task4_with_testbench/display_7seg.vhd
+l0
+L5
+Vf]TIbO_gK^h@E_@2^zNmz0
+!s100 k6CBfcW82GCaXUiJ`5lXE1
+R7
+32
+R8
+!i10b 1
+Z17 !s108 1681663551.000000
+Z18 !s90 -reportprogress|300|-work|flasher|-2002|-explicit|-stats=none|D:/Programs/QuartusProjects/DSE_lab4/Rescaled_task4_with_testbench/display_7seg.vhd|
+Z19 !s107 D:/Programs/QuartusProjects/DSE_lab4/Rescaled_task4_with_testbench/display_7seg.vhd|
+!i113 1
+R12
+R13
+Abehavioural
+R2
+R3
+R4
+DEx4 work 12 display_7seg 0 22 f]TIbO_gK^h@E_@2^zNmz0
+l11
+L10
+VDDL4KlVoWVT:RRh<bKP_i0
+!s100 fEBcZLA=j7caeb;RH1gOQ3
+R7
+32
+R8
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R12
+R13
+Eflasher
+Z20 w1679847954
+R2
+R3
+R4
+R0
+Z21 8D:/Programs/QuartusProjects/DSE_lab4/Rescaled_task4_with_testbench/flasher.vhd
+Z22 FD:/Programs/QuartusProjects/DSE_lab4/Rescaled_task4_with_testbench/flasher.vhd
+l0
+L5
+Vi^]mCfd[cWf6`FeTAXm:z3
+!s100 ha?hXVMYnd3F:QbNdfe8@1
+R7
+32
+R8
+!i10b 1
+R17
+Z23 !s90 -reportprogress|300|-work|flasher|-2002|-explicit|-stats=none|D:/Programs/QuartusProjects/DSE_lab4/Rescaled_task4_with_testbench/flasher.vhd|
+Z24 !s107 D:/Programs/QuartusProjects/DSE_lab4/Rescaled_task4_with_testbench/flasher.vhd|
+!i113 1
+R12
+R13
+Astructure
+R2
+R3
+R4
+DEx4 work 7 flasher 0 22 i^]mCfd[cWf6`FeTAXm:z3
+l38
+L10
+VDVnECH9CZe=8CIc`2F3Wi1
+!s100 76OGSF^c6l9<zW3TUNN4E3
+R7
+32
+R8
+!i10b 1
+R17
+R23
+R24
+!i113 1
+R12
+R13
+Eflasher_tb
+Z25 w1681663935
+R2
+R3
+R4
+R0
+Z26 8D:/Programs/QuartusProjects/DSE_lab4/Rescaled_task4_with_testbench/flasher_tb.vhd
+Z27 FD:/Programs/QuartusProjects/DSE_lab4/Rescaled_task4_with_testbench/flasher_tb.vhd
+l0
+L5
+V66PSe^8nRNaKk1XIjb3g=3
+!s100 SUR1j:oaTdS@c2I`b]=Jl2
+R7
+32
+Z28 !s110 1681663941
+!i10b 1
+Z29 !s108 1681663941.000000
+Z30 !s90 -reportprogress|300|-work|flasher|-2002|-explicit|-stats=none|D:/Programs/QuartusProjects/DSE_lab4/Rescaled_task4_with_testbench/flasher_tb.vhd|
+Z31 !s107 D:/Programs/QuartusProjects/DSE_lab4/Rescaled_task4_with_testbench/flasher_tb.vhd|
+!i113 1
+R12
+R13
+Atest
+R2
+R3
+R4
+Z32 DEx4 work 10 flasher_tb 0 22 66PSe^8nRNaKk1XIjb3g=3
+l20
+L8
+V`][5d1[Gm^SSlRLjKme^80
+!s100 TIR096YF_Jj9?U5ZXA9Kn0
+R7
+32
+R28
+!i10b 1
+R29
+R30
+R31
+!i113 1
+R12
+R13
+Ehard_block
+Z33 w1681662658
+Z34 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z35 DPx9 cycloneiv 19 cycloneiv_atom_pack 0 22 <z:=^zLc?_L<65bN0V5Ho0
+Z36 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+R3
+R4
+Z37 DPx9 cycloneiv 20 cycloneiv_components 0 22 _F^j:l?dZ0Xmd_Z]?K7Gg1
+R0
+Z38 8D:/Programs/QuartusProjects/DSE_lab4/Rescaled_task4_with_testbench/simulation/modelsim/flasher.vho
+Z39 FD:/Programs/QuartusProjects/DSE_lab4/Rescaled_task4_with_testbench/simulation/modelsim/flasher.vho
+l0
+L34
+VCkKhU=Wbk_C3]l1agS_c>0
+!s100 ePBnogNIYclWVmd<QYN@33
+R7
+32
+Z40 !s110 1681663267
+!i10b 1
+Z41 !s108 1681663267.000000
+Z42 !s90 -reportprogress|300|-work|flasher|-2002|-explicit|-stats=none|D:/Programs/QuartusProjects/DSE_lab4/Rescaled_task4_with_testbench/simulation/modelsim/flasher.vho|
+Z43 !s107 D:/Programs/QuartusProjects/DSE_lab4/Rescaled_task4_with_testbench/simulation/modelsim/flasher.vho|
+!i113 1
+R12
+R13
+Astructure
+R34
+R35
+R36
+R3
+R4
+R37
+DEx4 work 10 hard_block 0 22 CkKhU=Wbk_C3]l1agS_c>0
+l64
+L50
+V6_z^ag8hgH64@MJSOcA0I1
+!s100 9XRhD6F>^g=RX1;2c[R1L2
+R7
+32
+R40
+!i10b 1
+R41
+R42
+R43
+!i113 1
+R12
+R13
+Esynchronous_counter
+Z44 w1679847645
+R2
+R3
+R4
+R0
+Z45 8D:/Programs/QuartusProjects/DSE_lab4/Rescaled_task4_with_testbench/unsigned_counter.vhd
+Z46 FD:/Programs/QuartusProjects/DSE_lab4/Rescaled_task4_with_testbench/unsigned_counter.vhd
+l0
+L5
+VkP6H0V_z@c7WhO`Dfk:Y;0
+!s100 0:`C:mRzh@oag=SN1FDAb1
+R7
+32
+R8
+!i10b 1
+R17
+Z47 !s90 -reportprogress|300|-work|flasher|-2002|-explicit|-stats=none|D:/Programs/QuartusProjects/DSE_lab4/Rescaled_task4_with_testbench/unsigned_counter.vhd|
+Z48 !s107 D:/Programs/QuartusProjects/DSE_lab4/Rescaled_task4_with_testbench/unsigned_counter.vhd|
+!i113 1
+R12
+R13
+Abehaviour
+R2
+R3
+R4
+DEx4 work 19 synchronous_counter 0 22 kP6H0V_z@c7WhO`Dfk:Y;0
+l15
+L11
+VoT[f360g3A1b9h0mX477@2
+!s100 G]670CX;1ZV<dESbYYNI01
+R7
+32
+R8
+!i10b 1
+R17
+R47
+R48
+!i113 1
+R12
+R13

@@ -1,0 +1,324 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Programs/QuartusProjects/DSE_lab4/Task1
+Edisplay_7seg
+Z0 w1681635656
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 dD:/Programs/QuartusProjects/DSE_lab4/Task2
+Z4 8D:/Programs/QuartusProjects/DSE_lab4/Task2/display_7seg.vhd
+Z5 FD:/Programs/QuartusProjects/DSE_lab4/Task2/display_7seg.vhd
+l0
+L4
+V_alo@M9][jiPL=zb66@5F0
+!s100 YbmjN]CSQKV2MEilHi2L40
+Z6 OV;C;10.5b;63
+32
+Z7 !s110 1681636131
+!i10b 1
+Z8 !s108 1681636131.000000
+Z9 !s90 -reportprogress|300|-work|counter|-2002|-explicit|-stats=none|D:/Programs/QuartusProjects/DSE_lab4/Task2/display_7seg.vhd|
+Z10 !s107 D:/Programs/QuartusProjects/DSE_lab4/Task2/display_7seg.vhd|
+!i113 1
+Z11 o-work counter -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Abehavioural
+R1
+R2
+DEx4 work 12 display_7seg 0 22 _alo@M9][jiPL=zb66@5F0
+l9
+L8
+VC?=W[zMGC8=R`[9eR6:L21
+!s100 _K@X2OK<:UH[Bo:dglVMW3
+R6
+32
+Z13 !s110 1681636132
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ehard_block
+Z14 w1681640466
+Z15 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z16 DPx9 cycloneiv 19 cycloneiv_atom_pack 0 22 <z:=^zLc?_L<65bN0V5Ho0
+Z17 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+R1
+R2
+Z18 DPx9 cycloneiv 20 cycloneiv_components 0 22 _F^j:l?dZ0Xmd_Z]?K7Gg1
+R3
+Z19 8D:/Programs/QuartusProjects/DSE_lab4/Task2/simulation/modelsim/up_counter.vho
+Z20 FD:/Programs/QuartusProjects/DSE_lab4/Task2/simulation/modelsim/up_counter.vho
+l0
+L34
+VmCf9k=6ELzg<D;WgF=Sf@1
+!s100 ePBnogNIYclWVmd<QYN@33
+R6
+32
+Z21 !s110 1681640539
+!i10b 1
+Z22 !s108 1681640539.000000
+Z23 !s90 -reportprogress|300|-work|counter|-2002|-explicit|-stats=none|D:/Programs/QuartusProjects/DSE_lab4/Task2/simulation/modelsim/up_counter.vho|
+Z24 !s107 D:/Programs/QuartusProjects/DSE_lab4/Task2/simulation/modelsim/up_counter.vho|
+!i113 1
+R11
+R12
+Astructure
+R15
+R16
+R17
+R1
+R2
+R18
+DEx4 work 10 hard_block 0 22 mCf9k=6ELzg<D;WgF=Sf@1
+l64
+L50
+VhZXg822RVG[AKYB?UChE@1
+!s100 9XRhD6F>^g=RX1;2c[R1L2
+R6
+32
+R21
+!i10b 1
+R22
+R23
+R24
+!i113 1
+R11
+R12
+Esync_counter_16bit_1
+Z25 w1681635855
+R1
+R2
+R3
+Z26 8D:/Programs/QuartusProjects/DSE_lab4/Task2/sync_counter_16bit_1.vhd
+Z27 FD:/Programs/QuartusProjects/DSE_lab4/Task2/sync_counter_16bit_1.vhd
+l0
+L6
+VLOiEkFNKafZzPc5hDj_Yl2
+!s100 FaR[d1NJUVZ2T?nDnO?<U0
+R6
+32
+R13
+!i10b 1
+Z28 !s108 1681636132.000000
+Z29 !s90 -reportprogress|300|-work|counter|-2002|-explicit|-stats=none|D:/Programs/QuartusProjects/DSE_lab4/Task2/sync_counter_16bit_1.vhd|
+Z30 !s107 D:/Programs/QuartusProjects/DSE_lab4/Task2/sync_counter_16bit_1.vhd|
+!i113 1
+R11
+R12
+Astructural
+R1
+R2
+DEx4 work 20 sync_counter_16bit_1 0 22 LOiEkFNKafZzPc5hDj_Yl2
+l25
+L13
+VMWUDBG6=hBKXYHfOMK<`50
+!s100 [EWnfNgE^A46HRej5Qe]c0
+R6
+32
+R13
+!i10b 1
+R28
+R29
+R30
+!i113 1
+R11
+R12
+Esync_counter_16bit_1_tb
+Z31 w1681636469
+R1
+R2
+R3
+Z32 8D:\Programs\QuartusProjects\DSE_lab4\Task2\sync_counter_16bit_1_tb.vhd
+Z33 FD:\Programs\QuartusProjects\DSE_lab4\Task2\sync_counter_16bit_1_tb.vhd
+l0
+L6
+V=kAA^A:`iIb;=AM0UG]Sn2
+!s100 ?`b=BZ_mPXAB?5aEldFKL0
+R6
+32
+Z34 !s110 1681636475
+!i10b 1
+Z35 !s108 1681636474.000000
+Z36 !s90 -reportprogress|300|-work|counter|-2002|-explicit|-stats=none|D:\Programs\QuartusProjects\DSE_lab4\Task2\sync_counter_16bit_1_tb.vhd|
+Z37 !s107 D:\Programs\QuartusProjects\DSE_lab4\Task2\sync_counter_16bit_1_tb.vhd|
+!i113 1
+R11
+R12
+Amytest
+R1
+R2
+DEx4 work 23 sync_counter_16bit_1_tb 0 22 =kAA^A:`iIb;=AM0UG]Sn2
+l23
+L10
+VeUaeX^cUbF?M`L_eGOU<R0
+!s100 Sl`Vaf]PI4MYWmi2oVfEn2
+R6
+32
+R34
+!i10b 1
+R35
+R36
+R37
+!i113 1
+R11
+R12
+Et_ff
+R0
+R1
+R2
+R3
+Z38 8D:/Programs/QuartusProjects/DSE_lab4/Task2/T_ff.vhd
+Z39 FD:/Programs/QuartusProjects/DSE_lab4/Task2/T_ff.vhd
+l0
+L4
+V84mIDa][3d_5AdZJ2TM3R0
+!s100 O`LOB9Q[:MG8zI7XQLc4F2
+R6
+32
+R13
+!i10b 1
+R28
+Z40 !s90 -reportprogress|300|-work|counter|-2002|-explicit|-stats=none|D:/Programs/QuartusProjects/DSE_lab4/Task2/T_ff.vhd|
+Z41 !s107 D:/Programs/QuartusProjects/DSE_lab4/Task2/T_ff.vhd|
+!i113 1
+R11
+R12
+Abeh
+R1
+R2
+DEx4 work 4 t_ff 0 22 84mIDa][3d_5AdZJ2TM3R0
+l11
+L9
+V[Cn0nERo3WF:_ELXEXW>m2
+!s100 l2j6D]@m@9gRRa_YOe5Xh1
+R6
+32
+R13
+!i10b 1
+R28
+R40
+R41
+!i113 1
+R11
+R12
+Eup_counter
+R14
+R16
+R18
+R15
+Z42 DPx6 altera 11 dffeas_pack 0 22 :S1C`o89Vbe5bV6`:6CaB3
+R17
+R1
+R2
+Z43 DPx6 altera 28 altera_primitives_components 0 22 z?[99Tn<@QGNik3V1c6ah1
+R3
+R19
+R20
+l0
+L79
+VLi4HJJXZBUmdEC8TQ9k2=0
+!s100 <78N5Kf?dzCEcL@^JRnK13
+R6
+32
+R21
+!i10b 1
+R22
+R23
+R24
+!i113 1
+R11
+R12
+Astructure
+R16
+R18
+R15
+R42
+R17
+R1
+R2
+R43
+DEx4 work 10 up_counter 0 22 Li4HJJXZBUmdEC8TQ9k2=0
+l188
+L110
+V7RebS6_JjIc;9Vhmz^]952
+!s100 DTb:[7H:mi`geMZTfG^CX2
+R6
+32
+R21
+!i10b 1
+R22
+R23
+R24
+!i113 1
+R11
+R12
+Astructural
+R1
+R2
+DEx4 work 10 up_counter 0 22 Da[:6ZD?<NFQhMPHVD4AE1
+l20
+L13
+VA[BGmIeGen_1W=ko@`2BA1
+!s100 2m1BMFSDFk^k^69OK88Vk1
+R6
+32
+R7
+!i10b 1
+R8
+!s90 -reportprogress|300|-work|counter|-2002|-explicit|-stats=none|D:/Programs/QuartusProjects/DSE_lab4/Task2/up_counter.vhd|
+!s107 D:/Programs/QuartusProjects/DSE_lab4/Task2/up_counter.vhd|
+!i113 1
+R11
+R12
+FD:/Programs/QuartusProjects/DSE_lab4/Task2/up_counter.vhd
+R0
+8D:/Programs/QuartusProjects/DSE_lab4/Task2/up_counter.vhd
+Eup_counter_tb
+Z44 w1681640529
+R1
+R2
+R3
+Z45 8D:/Programs/QuartusProjects/DSE_lab4/Task2/up_counter_tb.vhd
+Z46 FD:/Programs/QuartusProjects/DSE_lab4/Task2/up_counter_tb.vhd
+l0
+L4
+VkH;D6<gDRB0`ocRKg`EU11
+!s100 3AHi1RJ8@@kTFITLON;Y=3
+R6
+32
+Z47 !s110 1681640538
+!i10b 1
+Z48 !s108 1681640538.000000
+Z49 !s90 -reportprogress|300|-work|counter|-2002|-explicit|-stats=none|D:/Programs/QuartusProjects/DSE_lab4/Task2/up_counter_tb.vhd|
+Z50 !s107 D:/Programs/QuartusProjects/DSE_lab4/Task2/up_counter_tb.vhd|
+!i113 1
+R11
+R12
+Amytest
+R1
+R2
+DEx4 work 13 up_counter_tb 0 22 kH;D6<gDRB0`ocRKg`EU11
+l19
+L7
+VLniWl7WHz]@m3lYK:OOIS3
+!s100 U7`_?mKfPN<C5nbLlEnMS3
+R6
+32
+R47
+!i10b 1
+R48
+R49
+R50
+!i113 1
+R11
+R12
